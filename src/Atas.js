@@ -10,31 +10,10 @@ class Atas extends React.Component {
             
             <div className="m-5">
 
-                {/* <Navbar bg="light" expand="lg">
-                    <Container>
-                        <Navbar.Brand href="/beranda">Restaurant</Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
-                                <Link to="/gallery" className="nav-link">Gallery</Link>
-                                <Link to="/beranda" className="nav-link">Beranda</Link>
-                                <Nav.Link href="#link">Link</Nav.Link>
-                                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                                </NavDropdown>
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar> */}
-
                 <div className="m-5">
                     <div className="mt-3">
                         <h1 className="ms-5">Restaurants</h1>
-                        <p className="ms-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue lacus viverra vitae congue eu consequat ac felis.</p>
+                        <p className="ms-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu aliquet sem, quis laoreet sapien. Cras commodo elit ut eros ultricies dapibus. Nulla eget neque quis lacus auctor euismod ut a purus. Sed malesuada eleifend nulla non semper. Ut nisl justo, rutrum luctus tempor ac, viverra et ante. Mauris ut nisi elit. Aenean tincidunt turpis nec nibh posuere, in viverra quam pharetra.</p>
                     </div>
                     <div>
                         <hr>

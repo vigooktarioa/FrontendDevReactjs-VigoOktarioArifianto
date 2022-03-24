@@ -14,12 +14,12 @@ class Kartu extends React.Component {
                             
                             <div className="d-flex flex-row "><h5>{this.props.nama}</h5></div>
                             <div className="d-flex flex-row"><h3>{this.props.bintang}</h3></div>
-                            <div className="d-flex flex-row mt-3"><p className="spaceright">{this.props.kategori}</p>
-                                <p className="spaceleft">{this.props.status}</p></div>
+                            <div className="d-flex flex-row mt-3"><p className="spaceright cardBottom">{this.props.kategori}</p>
+                                <p className="spaceleft cardBottom">{this.props.status}</p></div>
                             
                         </div>
                     </Card.Body>
-                    <Button className="mt-0">Learn More</Button>
+                    <Button className="mt-0" onClick={this.props.learnMore}>Learn More</Button>
 
                 </Card>
                 {/* <div className="card">

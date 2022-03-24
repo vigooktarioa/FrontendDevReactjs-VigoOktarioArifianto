@@ -13,6 +13,7 @@ class App extends React.Component{
       <div>
         <p><Atas /></p>
         <p><Gallery /></p>
+        <p><Test /></p>
       </div>
     );
   }

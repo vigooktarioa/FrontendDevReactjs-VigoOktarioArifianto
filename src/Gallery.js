@@ -45,7 +45,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
-                    nama: "german Food",
+                    nama: "German Food",
                     kategori: "German",
                     harga: "$",
                     bintang: "★★★☆☆",
@@ -92,14 +92,7 @@ class ListGallery extends Component {
                     harga: "$",
                     bintang: "★★★☆☆",
                     status: "Open Now"
-                },
-                {
-                    nama: "Local Food",
-                    kategori: "Local",
-                    harga: "$",
-                    bintang: "★★★☆☆",
-                    status: "Open Now"
-                },
+                }
             ],
             nama: "",
             kategori: "",
@@ -199,12 +192,12 @@ class ListGallery extends Component {
         })
     }
 
-    Edit = (item) => {
+    learnMore = (item) => {
         // menampilkan komponen modal
         $("#modal_buku").show()
         this.setState({
-            isbn: item.isbn,
-            judul: item.judul,
+            nama: item.nama,
+            kategori: item.kategori,
             penulis: item.penulis,
             penerbit: item.penerbit,
             cover: item.cover,
