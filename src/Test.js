@@ -1,5 +1,5 @@
 import React from 'react'
-import Utama from './utama';
+
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Container, Card, Button } from 'react-bootstrap';
 import './App.css';

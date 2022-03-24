@@ -3,13 +3,13 @@ import $ from "jquery";
 import Kartu from "./Kartu.js"
 import './App.css';
 
-
 class ListGallery extends Component {
     constructor() {
         super()
         this.state = {
             resto: [
                 {
+                    id:"1",
                     nama: "Warung Ayam",
                     kategori: "Chicken",
                     harga: "$$$$",
@@ -17,6 +17,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "2",
                     nama: "Warung Ikan",
                     kategori: "Seafood",
                     harga: "$$$$",
@@ -24,6 +25,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "3",
                     nama: "Streetfood",
                     kategori: "Streetfood",
                     harga: "$",
@@ -31,6 +33,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "4",
                     nama: "Chinese Food",
                     kategori: "Chinese",
                     harga: "$",
@@ -38,6 +41,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "5",
                     nama: "Japanese Food",
                     kategori: "Japanese",
                     harga: "$",
@@ -45,6 +49,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "6",
                     nama: "German Food",
                     kategori: "German",
                     harga: "$",
@@ -52,6 +57,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "7",
                     nama: "Chinese Food",
                     kategori: "German",
                     harga: "$",
@@ -59,6 +65,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "8",
                     nama: "Local Food",
                     kategori: "Local",
                     harga: "$",
@@ -66,6 +73,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "9",
                     nama: "Local Food",
                     kategori: "Local",
                     harga: "$",
@@ -73,6 +81,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "10",
                     nama: "Local Food",
                     kategori: "Local",
                     harga: "$",
@@ -80,6 +89,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "11",
                     nama: "Local Food",
                     kategori: "Local",
                     harga: "$",
@@ -87,6 +97,7 @@ class ListGallery extends Component {
                     status: "Open Now"
                 },
                 {
+                    id: "12",
                     nama: "Local Food",
                     kategori: "Local",
                     harga: "$",

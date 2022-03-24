@@ -1,5 +1,4 @@
 import React from 'react';
-import Utama from './utama';
 import Atas from './Atas';
 import Test from './Test';
 import Gallery from './Gallery';
