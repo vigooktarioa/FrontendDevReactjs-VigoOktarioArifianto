@@ -2,7 +2,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-<h2>dependencies: <h2>
+<h2>dependencies: </h2>
     <p>testing-library/jest-dom: 5.16.1</p>
     <p>testing-library/react: 12.1.2</p>
     <p>testing-library/user-event: 13.5.0</p>
