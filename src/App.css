@@ -128,3 +128,13 @@ zoom: 98%;
 .cardBottom {
   color: #636363
 }
+
+.harga{
+  margin-left: 1vh;
+  color: #282c34;
+  font-weight: bold;
+}
+
+.rightspace1vh{
+  margin-right: 1vh;
+}

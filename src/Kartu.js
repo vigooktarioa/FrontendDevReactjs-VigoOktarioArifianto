@@ -14,7 +14,10 @@ class Kartu extends React.Component {
                             
                             <div className="d-flex flex-row "><h5>{this.props.nama}</h5></div>
                             <div className="d-flex flex-row"><h3>{this.props.bintang}</h3></div>
-                            <div className="d-flex flex-row mt-3"><p className="spaceright cardBottom">{this.props.kategori}</p>
+                            <div className="d-flex flex-row mt-3">
+                                <p className="cardBottom rightspace1vh">{this.props.kategori}</p>
+                                <p>-</p>
+                                <p className="cardBottom harga">{this.props.harga}</p>
                                 <p className="spaceleft cardBottom">{this.props.status}</p></div>
                             
                         </div>
